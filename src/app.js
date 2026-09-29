@@ -8,7 +8,8 @@ app.get('/', (req, res) => {
   res.json({
     application: 'Secure Lab App',
     version: '1.0.0',
-    environment
+    environment,
+    lab: 'Specialization Security Lab'
   });
 });
 
